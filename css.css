@@ -1,0 +1,39 @@
+*{
+    margin: 0;
+    padding: 0;
+   }
+   body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(244, 244, 244);
+   }
+   .head{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 500px;
+    width: 500px;
+    border-radius: 50%;
+    background-image: url(img/rrr.jpg)  ; 
+    background-position : 50% 33%
+   }
+   .white {
+    display: block;
+    width: 150px;
+    height: 150px;
+    background-color: rgb(255, 255, 255);
+    border-radius: 50%;
+    display: none;
+    padding: 18px;
+   } 
+   .eye {
+    width: 20px;
+    height:20px;
+    border-radius: 50%;
+    background-color: black;
+    position: absolute;
+    }
+
+    
+    
